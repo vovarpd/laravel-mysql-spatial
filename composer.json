@@ -1,6 +1,6 @@
 {
-    "name": "grimzy/laravel-mysql-spatial",
-    "description": "MySQL spatial data types extension for Laravel.",
+    "name": "vovarpd/laravel-mysql-spatial",
+    "description": "MySQL spatial data types extension for Laravel. Fork of grimzy/laravel-mysql-spatial with Laravel 9 support",
     "scripts": {
         "test": "phpunit -c phpunit.xml.dist",
         "test:unit": "phpunit -c phpunit.xml.dist --testsuite unit",
