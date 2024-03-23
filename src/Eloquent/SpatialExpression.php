@@ -7,6 +7,7 @@ use Illuminate\Database\Query\Expression;
 
 class SpatialExpression extends Expression
 {
+    #[\ReturnTypeWillChange]
     public function getValue(Grammar $grammar)
     {
         return "ST_GeomFromText(?, ?, 'axis-order=long-lat')";
